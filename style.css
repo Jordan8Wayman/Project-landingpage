@@ -1,0 +1,175 @@
+body {
+    height: 100vh;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: #E5E7EB;
+    font-size: 24px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding: 40px;
+    color: #E5E7EB;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-top: 50px;
+    font-size: 48px;
+}
+
+.left {
+    max-width: 400px;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 24px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.contact {
+    padding: 10px;
+    width: 150px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    font-weight: bolder;
+    color: white;
+    font-size: 15px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 150px;
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.info {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.three {
+    padding: 100px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    width: 600px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.name {
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: bold;
+}
+
+
+.four{
+    padding-top: 100px;
+    padding-bottom: 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+
+.call-now {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    font-weight: 900;
+    color: white;
+    margin-left: 250px;
+    height: 35px;
+    border-color: white;
+    width: 150px;
+}
+
+.action {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    height: 10px;
+}
+
+.under {
+    color: white;
+    font-size: 15px;
+    height: 10px;
+}
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.copy {
+    font-size: 15px;
+}
